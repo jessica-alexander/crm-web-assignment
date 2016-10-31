@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+.title{
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sub_title{
+  background: lightgrey;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;;
+  font-size: 18px;
+}
+
+.sub2{
+  background: #ff7864;
+  height: 25px;
+  font-family: sans-serif;;
+  font-size: 16px;
+}
+
+.contacts{
+  background: #0affe1;
+  postion: absolute;
+  line-height: 1.2em;
+  height: 50px;
+  font-family: sans-serif;;
+  font-size: 16px;
+}
+
+.footer{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+#align{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}

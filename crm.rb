@@ -10,6 +10,8 @@ require 'sinatra'
 # Contact.create('Sergey', 'Brin', 'sergey@google.com', 'Co-Founder')
 # Contact.create('Steve', 'Jobs', 'steve@apple.com', 'Visionary')
 
+# Temporary fake data so that we always find contact with id 1.
+Contact.create('Johnny', 'Bravo', 'johnny@bitmakerlabs.com', 'Rockstar')
 get '/' do
   @crm_app_name= "Jessica's CRM"
   erb :index
